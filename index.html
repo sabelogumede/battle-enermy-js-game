@@ -2,7 +2,7 @@
     <html lang="en"> <!-- Set this to the main language of your site -->
     <head>
         <meta charset="utf-8">
-        <title>HTML5 Bones :: PAGE TITLE</title>
+        <title>Battle Enemy</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
@@ -12,7 +12,7 @@
         <!-- js -->
         <script src="js/gamemanager.js"></script>
         <script src="js/player.js"></script>
-        <script src="js/enermy.js"></script>
+        <script src="js/enemy.js"></script>
     </head>
     <body>
 
@@ -23,51 +23,55 @@
 
         <div class="interface">
             <!-- Player 1 -->
-            <a href="#" onclick="">
-                <img src="images/avartar-players/ditch.jpg" alt="ditch">
+            <a href="#" onclick="GameManager.setGameStart('Ditch')">
+                <img src="images/avatar-players/ditch.jpg" alt="ditch">
                 <div>
                     <h3>Ditch</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor vehicula ligula sit amet ultrices. Mauris placerat diam sem, ac vehicula nisi faucibus sed. </p>
                 </div>
             </a>
-            <!-- Player 1 -->
-            <a href="#" onclick="">
-                    <img src="images/avartar-players/jessy.jpg" alt="jessy">
+            <!-- Player 2 -->
+            <a href="#" onclick="GameManager.setGameStart('Jessy')">
+                    <img src="images/avatar-players/jessy.jpg" alt="jessy">
                     <div>
-                        <h3>jessy</h3>
+                        <h3>Jessy</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor vehicula ligula sit amet ultrices. Mauris placerat diam sem, ac vehicula nisi faucibus sed. </p>
                     </div>
                 </a>
-                <!-- Player 1 -->
-            <a href="#" onclick="">
-                    <img src="images/avartar-players/kim.jpg" alt="kim">
+                <!-- Player 3 -->
+            <a href="#" onclick="GameManager.setGameStart('kim')">
+                    <img src="images/avatar-players/kim.jpg" alt="kim">
                     <div>
                         <h3>kim</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor vehicula ligula sit amet ultrices. Mauris placerat diam sem, ac vehicula nisi faucibus sed. </p>
                     </div>
                 </a>
-                <!-- Player 1 -->
-            <a href="#" onclick="">
-                    <img src="images/avartar-players/sassy.jpg" alt="sass">
+                <!-- Player 4 -->
+            <a href="#" onclick="GameManager.setGameStart('Sassy')">
+                    <img src="images/avatar-players/sassy.jpg" alt="sassy">
                     <div>
-                        <h3>sass</h3>
+                        <h3>Sassy</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor vehicula ligula sit amet ultrices. Mauris placerat diam sem, ac vehicula nisi faucibus sed. </p>
                     </div>
                 </a>
 
         </div>
 
-        <div class="action">
+
+        <div class="actions">
 
         </div>
+
 
         <div class="arena">
 
         </div>
 
-        <div class="enermy">
+
+        <div class="enemy">
 
         </div>
+
 
     </body>
 </html>
